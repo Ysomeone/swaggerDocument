@@ -44,10 +44,14 @@
                     <outputFile>./docs/asciidoc/generated/index</outputFile>
                     <!---文档生成配置参数-->
                     <config>
-                        <swagger2markup.outputLanguage>ZH</swagger2markup.outputLanguage>
+                        <!--指定应用于生成文件的标记语言。-->
+                       <swagger2markup.outputLanguage>ZH</swagger2markup.outputLanguage>
+                        <!-- 指定是否应生成HTTP请求和响应示例 -->
                         <swagger2markup.generatedExamplesEnabled>true</swagger2markup.generatedExamplesEnabled>
                         <swagger2markup.inlineSchemaEnabled>false</swagger2markup.inlineSchemaEnabled>
+                        <!--指定路径的分组方式-->
                         <swagger2markup.pathsGroupedBy>TAGS</swagger2markup.pathsGroupedBy>
+                        <!--指定应用于生成文件的标记语言。-->
                         <swagger2markup.markupLanguage>ASCIIDOC</swagger2markup.markupLanguage>
                     </config>
                 </configuration>
